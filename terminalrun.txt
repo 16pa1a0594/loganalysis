@@ -1,3 +1,18 @@
+             PART-1
+vit@vit-HP-Pro-3090-MT:~/Desktop/vm_vagrant$ sudo -i -u postgres
+[sudo] password for vit: 
+postgres@vit-HP-Pro-3090-MT:~$ psql
+psql (9.5.12)
+Type "help" for help.
+postgres=# create database news;
+ERROR:  database "news" already exists
+postgres=# /c news
+postgres-# \c news
+You are now connected to database "news" as user "postgres".
+news-# \q
+------------------------------------------------------------------------------------------------
+
+
 vit@vit-HP-Pro-3090-MT:~/Desktop/vm_vagrant$ sudo -i -u postgres
 [sudo] password for vit: 
 postgres@vit-HP-Pro-3090-MT:~$ psql
